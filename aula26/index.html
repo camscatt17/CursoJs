@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Exercício Aula 26</title>
+</head>
+
+<body>
+  <section class="container">
+    <h1>Tabela IMC</h1>
+
+    <div class="lista">
+      <dl>
+        <dt><b>IMC</b></dt>
+        <dt>Menos do que 18,5</dt>
+        <dt>Entre 18,5 e 24,9</dt>
+        <dt>Entre 25 e 29,9</dt>
+        <dt>Entre 30 e 34,9</dt>
+        <dt>Entre 35 e 39,9</dt>
+        <dt>Mais do que 40</dt>
+      </dl>
+
+      <dl>
+        <dt><b>Resultado</b></dt>
+        <dt>Abaixo do peso</dt>
+        <dt>Peso normal</dt>
+        <dt>Sobrepeso</dt>
+        <dt>Obesidade grau 1</dt>
+        <dt>Obesidade grau 2</dt>
+        <dt>Obesidade grau 3</dt>
+      </dl>
+
+      <dl></dl>
+    </div>
+
+    <h1>Calcule seu IMC</h1>
+
+    <form id="form">
+      <label for="peso">Peso:</label>
+      <input type="text" id="peso" name="peso">
+
+      <label for="altura">Altura:</label>
+      <input type="text" id="altura" name="altura">
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div class="resultado"></div>
+
+  </section>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
